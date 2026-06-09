@@ -20,13 +20,18 @@ a{text-decoration:none}
 .hero-wrap{
     min-height:355px;
     display:grid;
-    grid-template-columns:.94fr 1.06fr;
+    grid-template-columns:1.05fr .95fr;
     gap:46px;
     align-items:center;
     padding:25px 0 20px;
 }
 
-.hero h1{font-size:44px;line-height:1.07;letter-spacing:-1.15px;font-weight:800;max-width:555px;margin-bottom:17px}
+.hero h1{    font-size:40px;
+    line-height:1.08;
+    letter-spacing:-1px;
+    font-weight:800;
+    max-width:640px;
+    margin-bottom:17px;}
 .hero h1 span{color:#4f7cff}
 .hero-copy{font-size:15.7px;line-height:1.63;color:#d7deeb;max-width:535px;margin-bottom:25px}
 .buttons{display:flex;gap:16px;margin-bottom:29px}
@@ -87,15 +92,23 @@ a{text-decoration:none}
 .mile.active .dot{background:#2563eb;color:#fff}
 .mile h4{font-size:12.8px;margin-bottom:6px}.mile p{font-size:11.3px;line-height:1.35;color:#475569;margin:0}.badge{display:inline-block;margin-top:6px;background:#2563eb;color:white;font-size:10px;font-weight:800;padding:4px 8px;border-radius:4px}
 
-.footer{background:#050b18;color:#fff;padding:32px 0 14px}
+.footer{background:#050b18;color:#fff;padding:24px 0 10px}
 .footer-grid{display:grid;grid-template-columns:2fr repeat(5,1fr);gap:34px}
-.footer-logo{width:168px;margin-bottom:12px}
-.footer p{color:#cbd5e1;font-size:12.4px;line-height:1.55;max-width:260px}
+.footer-logo{    width:168px;
+    margin-bottom:-18px;
+    display:block;
+    position:relative;
+    top:-8px;}
+.footer p{    color:#cbd5e1;
+    font-size:12.4px;
+    line-height:1.45;
+    max-width:260px;
+    margin:0 0 8px;}
 .footer h4{font-size:12px;margin-bottom:13px;text-transform:uppercase}
 .footer a{display:block;color:#cbd5e1;font-size:12px;margin-bottom:8px}
 .footer a:hover{color:#60a5fa}
 .socials{display:flex;gap:12px;margin-top:18px}.socials span{width:24px;height:24px;border-radius:50%;background:#1e293b;display:grid;place-items:center;font-size:12px}
-.copyright{text-align:center;color:#94a3b8;font-size:11px;margin-top:24px}
+.copyright{text-align:center;color:#94a3b8;font-size:11px;margin-top:16px}
 .placeholder{min-height:520px;padding:90px 0;background:#fff}.placeholder h1{font-size:42px;margin-bottom:14px}.placeholder p{color:#475569}
 
 @media(max-width:1050px){.menu{gap:18px}.hero-wrap{grid-template-columns:1fr}.hero-image img{margin:auto}.module-grid,.why-grid,.road-grid,.footer-grid{grid-template-columns:1fr 1fr}.why-grid>div:first-child{grid-column:1/-1}}
