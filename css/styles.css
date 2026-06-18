@@ -623,3 +623,62 @@
   .product-detail-page .product-hero h1{font-size:38px!important;}
   .product-detail-page .diagram-frame{padding:8px!important;}
 }
+
+
+/* Final launch legal and purchase updates */
+.live-purchase-panel { position: relative; overflow: hidden; }
+.live-purchase-grid .purchase-card-new { display: flex; flex-direction: column; min-height: 330px; }
+.live-purchase-grid .purchase-card-new p { min-height: 56px; }
+.live-purchase-grid .purchase-price { margin-top: auto; }
+.purchase-card-btn { margin-top: 18px; justify-content: center; width: 100%; }
+.purchase-legal-panel {
+  margin-top: 28px;
+  padding: 28px;
+  border: 1px solid rgba(96,165,250,.22);
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(15,23,42,.92), rgba(15,23,42,.78));
+  box-shadow: 0 24px 80px rgba(15,23,42,.18);
+  display: grid;
+  grid-template-columns: 1.3fr auto;
+  gap: 24px;
+  align-items: center;
+}
+.purchase-legal-panel h3 { color: #fff; margin: 6px 0 8px; font-size: 24px; }
+.purchase-legal-panel p { color: #cbd5e1; margin: 0; line-height: 1.65; }
+.purchase-legal-actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-end; }
+.purchase-support-note {
+  margin-top: 18px;
+  padding: 18px 20px;
+  border: 1px solid rgba(148,163,184,.22);
+  border-radius: 18px;
+  background: rgba(255,255,255,.72);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.purchase-support-note strong { color: #0f172a; }
+.purchase-support-note span { color: #475569; }
+.purchase-support-note a { margin-left: auto; font-weight: 800; color: #2563eb; }
+.legal-hero { background: radial-gradient(circle at 20% 0%, rgba(59,130,246,.22), transparent 36%), linear-gradient(135deg, #061126, #0f172a 65%, #111827); }
+.legal-card {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 42px;
+  border-radius: 28px;
+  background: #fff;
+  border: 1px solid rgba(148,163,184,.2);
+  box-shadow: 0 26px 90px rgba(15,23,42,.10);
+}
+.legal-card h1 { font-size: 34px; line-height: 1.12; margin: 0 0 10px; color: #0f172a; }
+.legal-card h2 { font-size: 22px; margin: 34px 0 12px; color: #0f172a; }
+.legal-card p { color: #334155; line-height: 1.75; margin: 0 0 16px; }
+.legal-card ul { margin: 0 0 18px 20px; padding: 0; color: #334155; line-height: 1.75; }
+.legal-card li { margin-bottom: 6px; }
+.legal-card hr { border: 0; border-top: 1px solid rgba(148,163,184,.28); margin: 24px 0; }
+@media (max-width: 800px) {
+  .purchase-legal-panel { grid-template-columns: 1fr; }
+  .purchase-legal-actions { justify-content: flex-start; }
+  .purchase-support-note a { margin-left: 0; }
+  .legal-card { padding: 28px; }
+}
